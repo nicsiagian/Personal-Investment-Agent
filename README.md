@@ -1,2 +1,2 @@
 # Personal-Investment-Agent
-This project aims to build a personal investment agent that makes recommendations based on market history and economic factors. This project will be built with agentic AI.
+This project aims to build a personal investment agent that makes recommendations based on market history and economic factors. This project will be built with agentic AI. This agent helps retail and professional investors analyze individual stocks and optimize portfolio allocations by retrieving live market data, parsing news sentiment, and synthesizing insights via a RAG-powered LLM. It answers natural-language questions like "Should I rebalance my tech exposure?" or "What is the risk profile of NVDA right now?"
