@@ -3,12 +3,12 @@ import os
 
 load_dotenv()
 
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 
-llm = ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash",  # Changed this line
+llm = ChatGroq(
+    model="llama-3.3-70b-versatile",
     temperature=0,
-    google_api_key=os.environ["GOOGLE_API_KEY"]
+    groq_api_key=os.environ["GROQ_API_KEY"]
 )
 
 response = llm.invoke("Explain what a stock P/E ratio means in one sentence.")
